@@ -1,0 +1,42 @@
+/* Define theme colours */
+$theme-colours: (
+  'primaryColour': rgb(60, 69, 75),
+  'primaryColourR': 60,
+  'primaryColourG': 69,
+  'primaryColourB': 75,
+  'secondaryColour': rgb(79, 85, 89),
+  'secondaryColourR': 79,
+  'secondaryColourG': 85,
+  'secondaryColourB': 89,
+  'accentColour': rgb(191, 178, 170),
+  'accentColourR': 191,
+  'accentColourG': 178,
+  'accentColourB': 170,
+  'textColour': white,
+  'textColourRGB': 255
+);
+
+// Export for use in other css files
+@each $color, $value in $theme-colours {
+  :export {
+    $color: $value;
+  }
+}
+
+// Export for use in javascript
+:export {
+  primaryColour: map-get($theme-colours, 'primaryColour');
+  primaryColourR: map-get($theme-colours, 'primaryColourR');
+  primaryColourG: map-get($theme-colours, 'primaryColourG');
+  primaryColourB: map-get($theme-colours, 'primaryColourB');
+  secondaryColour: map-get($theme-colours, 'secondaryColour');
+  secondaryColourR: map-get($theme-colours, 'secondaryColourR');
+  secondaryColourG: map-get($theme-colours, 'secondaryColourG');
+  secondaryColourB: map-get($theme-colours, 'secondaryColourB');
+  accentColour: map-get($theme-colours, 'accentColour');
+  accentColourR: map-get($theme-colours, 'accentColourR');
+  accentColourG: map-get($theme-colours, 'accentColourG');
+  accentColourB: map-get($theme-colours, 'accentColourB');
+  textColour: map-get($theme-colours, 'textColour');
+  textColourRGB: map-get($theme-colours, 'textColourRGB');
+}

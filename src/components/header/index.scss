@@ -1,0 +1,19 @@
+@import 'src/assets/variables.module.scss';
+
+.app-header {
+    background-color: rgba(map-get($theme-colours, "primaryColourR"), map-get($theme-colours, "primaryColourG"), map-get($theme-colours, "primaryColourB"), 0);
+    display: flex;
+    padding: 0 0 0 5%;
+    color: rgba(map-get($theme-colours, "textColourRGB"), map-get($theme-colours, "textColourRGB"), map-get($theme-colours, "textColourRGB"), 0);
+    border-bottom: 3px solid rgba(map-get($theme-colours, "accentColourR"), map-get($theme-colours, "accentColourG"), map-get($theme-colours, "accentColourB"), 0);
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 10;
+}
+
+.app-title {
+    margin-left: 3vh;
+    font-size: 30px;
+    z-index: 10;
+}

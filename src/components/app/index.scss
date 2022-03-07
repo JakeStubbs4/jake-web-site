@@ -1,0 +1,7 @@
+@import 'src/assets/variables.module.scss';
+@import url('http://fonts.cdnfonts.com/css/electrolize');
+
+body {
+    background-color: map-get($theme-colours, "secondaryColour");
+    font-family: 'Electrolize';
+}

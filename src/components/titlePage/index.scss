@@ -1,0 +1,30 @@
+@import 'src/assets/variables.module.scss';
+
+.title-page-title {
+  font-size: 7.5vh;
+  color: map-get($theme-colours, "accentColour");
+  margin-top: 20.5%;
+  margin-bottom: 20%;
+  margin-left: 12.5%;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+   }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#down-arrow {
+  cursor: pointer;
+  font-size: 3vh;
+  color: map-get($theme-colours, "accentColour");
+  animation: pulse 4s linear infinite;
+}

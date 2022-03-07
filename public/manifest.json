@@ -1,0 +1,11 @@
+{
+  "short_name": "Jake Stubbs",
+  "name": "Jake Stubbs",
+  "icons": [
+    {
+      "src": "favicon.ico"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

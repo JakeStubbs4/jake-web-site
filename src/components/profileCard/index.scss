@@ -1,0 +1,16 @@
+@import 'src/assets/variables.module.scss';
+
+.image-container {
+    margin: 2.5vh;
+    border-radius: 1%;
+    border-bottom: 2px solid map-get($theme-colours, "accentColour");;
+}
+
+.content-row-header {
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.profile-card {
+    color: map-get($theme-colours, "textColour");
+}

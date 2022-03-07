@@ -1,0 +1,18 @@
+@import 'src/assets/variables.module.scss';
+
+.experience-title {
+    color: map-get($theme-colours, "accentColour");
+    align-items: center;
+    display: flex;
+}
+
+.experience-timeline {
+    position: relative;
+    text-align: end;
+    flex: 1;
+    padding-right: 5vh;
+}
+
+.experience-list {
+    margin-top: -1vh;
+}

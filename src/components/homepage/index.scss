@@ -1,0 +1,9 @@
+@import 'src/assets/variables.module.scss';
+
+.homepage-container {
+  background-color: map-get($theme-colours, "primaryColour");
+  display: flex;
+  margin: 4vh 1vh 1.5vh 1vh;
+  color: map-get($theme-colours, "textColour");
+  border-bottom: 3px solid map-get($theme-colours, "accentColour");
+}
