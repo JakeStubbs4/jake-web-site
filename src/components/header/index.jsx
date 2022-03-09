@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import Stack from '@mui/material/Stack';
+import React, { useEffect } from "react";
+import { Stack } from '@mui/material';
 import messages from 'assets/messages';
 import NavIcons from 'components/navicons';
 import * as theme from 'assets/variables.module.scss';
@@ -32,7 +32,7 @@ function Header() {
         justifyContent="flex-start"
       >
         <h2 className="app-title">{messages.fullName}</h2>
-        <h1 style={{fontSize:"40px"}} > | </h1>
+        <h1 style={{fontSize:"38px"}} > | </h1>
         <h2 className="app-title">{messages.title}</h2>
       </Stack>
       <NavIcons iconSize="large" />

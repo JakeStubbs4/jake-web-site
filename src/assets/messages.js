@@ -1,5 +1,5 @@
 const messages = {
-  aboutMe: "Hi, my name is Jake Stubbs and I'm a full stack software developer with industry experience in cybersecurity, software defined networking, and large scale application development. I graduated from Queen's University with a bachelor of applied science in May of 2020 and since then I have been working in the telecommunications industry across a variety of unique positions.",
+  aboutMe: "My name is Jake Stubbs and I'm a full stack software developer with industry experience in cybersecurity, software defined networking, and large scale application development. I graduated from Queen's University with a bachelor of applied science in May of 2020 and since then I have been working in the telecommunications industry across a variety of unique roles.",
   skills: [
     {title: "ReactJs", rating: 4},
     {title: "NodeJs", rating: 4},
@@ -73,6 +73,10 @@ const messages = {
   ],
   fullName: "Jake Stubbs",
   title: "Software & Security Engineer",
+  links: {
+    linkedIn: "https://linkedin.com/in/jake-stubbs-software",
+    gitHub: "https://github.com/JakeStubbs4/"
+  }
 };
 
 export default messages;

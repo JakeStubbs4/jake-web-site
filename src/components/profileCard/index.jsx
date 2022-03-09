@@ -4,6 +4,7 @@ import { Stack } from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import WorkIcon from '@mui/icons-material/Work';
+import SchoolIcon from '@mui/icons-material/School';
 import SkillBar from 'components/skillBar';
 import Experience from 'components/experience';
 import Education from 'components/education';
@@ -30,7 +31,7 @@ function ProfileCard() {
             <PersonIcon />
             <h2>About Me</h2>
           </Stack>
-          <p>{messages.aboutMe}</p>
+          <p className="about-me-content">{messages.aboutMe}</p>
           <Stack className="content-row-header" direction="row" spacing={2}>
             <AssignmentIcon />
             <h2>Skills</h2>
@@ -50,7 +51,7 @@ function ProfileCard() {
             return <Experience experience={experience} />
           })}
           <Stack className="content-row-header" direction="row" spacing={2}>
-            <WorkIcon />
+            <SchoolIcon />
             <h2>Education</h2>
           </Stack>
           {messages.education.map(experience => {

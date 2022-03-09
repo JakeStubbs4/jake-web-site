@@ -13,4 +13,9 @@
 
 .profile-card {
     color: map-get($theme-colours, "textColour");
+    margin-bottom: 3vh;
+}
+
+.about-me-content {
+    margin-right: 15%;
 }
