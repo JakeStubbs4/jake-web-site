@@ -18,6 +18,7 @@ function Header() {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, true);
+    handleScroll();
   }, [])
 
   return (

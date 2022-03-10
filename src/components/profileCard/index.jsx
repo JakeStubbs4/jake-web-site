@@ -31,7 +31,7 @@ function ProfileCard() {
             <PersonIcon />
             <h2>About Me</h2>
           </Stack>
-          <p className="about-me-content">{messages.aboutMe}</p>
+          <p className="profile-content">{messages.aboutMe}</p>
           <Stack className="content-row-header" direction="row" spacing={2}>
             <AssignmentIcon />
             <h2>Skills</h2>
@@ -47,16 +47,20 @@ function ProfileCard() {
             <WorkIcon />
             <h2>Experience</h2>
           </Stack>
-          {messages.experiences.map(experience => {
-            return <Experience experience={experience} />
-          })}
+          <div className="profile-content">
+            {messages.experiences.map(experience => {
+              return <Experience experience={experience} />
+            })}
+          </div>
           <Stack className="content-row-header" direction="row" spacing={2}>
             <SchoolIcon />
             <h2>Education</h2>
           </Stack>
-          {messages.education.map(experience => {
-            return <Education experience={experience} />
-          })}
+          <div className="profile-content">
+            {messages.education.map(experience => {
+              return <Education experience={experience} />
+            })}
+          </div>
         </Stack>
       </Stack>
     </div>
