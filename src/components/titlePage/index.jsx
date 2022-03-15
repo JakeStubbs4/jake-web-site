@@ -17,7 +17,7 @@ function TitlePage() {
   
   const autoScroll = () => {
     const headerSize = document.getElementById('header-transform').getBoundingClientRect().bottom - document.getElementById('header-transform').getBoundingClientRect().top;
-    const contentTop = document.getElementById('down-arrow').getBoundingClientRect().bottom - headerSize - 27.5;
+    const contentTop = document.getElementById('down-arrow').getBoundingClientRect().bottom - headerSize - 15;
     scrollY(contentTop);
   }
 
@@ -39,28 +39,27 @@ function TitlePage() {
   }, [])
 
   return (
-    <div >
+    <div className='title-page-box'>
       <div className="title-page-title">
         <Stack
-            direction="row"
-            spacing={4}
-            alignItems="center"
-            divider={
-                <StyledDivider 
-                    variant="middle" 
-                    orientation="vertical"
-                    flexItem 
-                />
-            }
+          direction="row"
+          spacing={4}
+          alignItems="center"
+          divider={
+              <StyledDivider 
+                  variant="middle" 
+                  orientation="vertical"
+                  flexItem 
+              />
+          }
         >
-            <div>{messages.fullName}</div>
-            <div>{messages.title}</div>
+          <div>{messages.fullName}</div>
+          <div>{messages.title}</div>
         </Stack>
       </div>
       <div id="down-arrow">
         <a
           onClick={autoScroll}
-          onHover={autoScroll}
         >
           {(pageTop < 15) && <Stack
             alignItems="center"

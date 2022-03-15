@@ -1,3 +1,4 @@
+import React from 'react';
 import Router from 'components/router';
 import Header from 'components/header';
 import TitlePage from 'components/titlePage';

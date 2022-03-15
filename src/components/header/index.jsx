@@ -31,10 +31,9 @@ function Header() {
         spacing={1.5}
         alignItems="baseline"
         justifyContent="flex-start"
+        className="app-title"
       >
-        <h2 className="app-title">{messages.fullName}</h2>
-        <h1 style={{fontSize:"38px"}} > | </h1>
-        <h2 className="app-title">{messages.title}</h2>
+        <h2>{messages.fullName} | {messages.title}</h2>
       </Stack>
       <NavIcons iconSize="large" />
     </div>
