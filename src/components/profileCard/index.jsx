@@ -16,7 +16,7 @@ export const ContentItem = styled(Grid)`
 	margin-top: -2vh;
 `
 
-function ProfileCard2() {
+function ProfileCard() {
   return (
 		<Grid container direction="row" spacing={2} className="profile-card">
 			<Grid item xs={3}>
@@ -48,4 +48,4 @@ function ProfileCard2() {
   );
 }
 
-export default ProfileCard2;
+export default ProfileCard;
