@@ -1,11 +1,13 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Homepage from 'components/homepage';
+import DougsApp from 'components/dougsApp';
 
 function Router() {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="*" component={Homepage}/>
+          <Route path="/doug-realm" component={DougsApp} />
+          <Route component={Homepage} />
         </Switch>
       </BrowserRouter>
     );
