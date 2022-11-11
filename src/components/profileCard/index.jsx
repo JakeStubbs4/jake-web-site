@@ -18,10 +18,7 @@ export const ContentItem = styled(Grid)`
 
 function ProfileCard() {
   return (
-		<Grid container direction="row" spacing={2} className="profile-card">
-			<Grid item xs={3}>
-				<img alt="Profile" className="image-container" src="/avatar.jpeg" width="5vh" />
-			</Grid>
+		<Grid container direction="row" spacing={2} className="profile-card" justifyContent="flex-end">
 			<Grid item xs={8} container direction="column">
 				<ContentHeader icon={<PersonIcon />} header="About me" />
 				<ContentItem item>
@@ -43,6 +40,10 @@ function ProfileCard() {
 						return <Education experience={experience} />
 					})}
 				</ContentItem>
+			</Grid>
+			<Grid item xs={1} />
+			<Grid item xs={3}>
+				<img alt="Profile" className="image-container" src="/avatar.jpeg" width="5vh" />
 			</Grid>
 		</Grid>
   );

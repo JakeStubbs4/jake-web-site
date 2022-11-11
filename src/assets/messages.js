@@ -3,8 +3,8 @@ const messages = {
   skills: [
     {title: "ReactJs", rating: 4},
     {title: "NodeJs", rating: 4},
-    {title: "GraphQL", rating: 3},
-    {title: "Git", rating: 4},
+    {title: "GraphQL", rating: 4},
+    {title: "Git", rating: 5},
     {title: "Ansible", rating: 5},
     {title: "Network security", rating: 3},
     {title: "Google Cloud", rating: 3},
@@ -14,10 +14,21 @@ const messages = {
   ],
   experiences: [
     {
+      title: "Software Engineering Team Lead",
+      organization: "TELUS",
+      start: "09/2022",
+      end: "Present",
+      descriptionPoints: [
+        "Squad leader within a medium sized Agile team.",
+        "Squad responsibilities include application wide administrative functionality including security controls.",
+        "Lead Engineer for Kubernetes native application CI/CD.",
+      ]
+    },
+    {
       title: "Software Development Engineer",
       organization: "TELUS",
       start: "12/2021",
-      end: "Present",
+      end: "09/2022",
       descriptionPoints: [
         "Working in a medium-sized agile team to develop a large scale application with ReactJS, Redux, NodeJS, GraphQL, and Redis.",
         "Strong focus on code quality with testing using Jest and employing CI/CD best practices."
