@@ -20,7 +20,7 @@ const messages = {
       end: "Present",
       descriptionPoints: [
         "Squad leader within a medium sized Agile team.",
-        "Squad responsibilities include application wide administrative functionality including security controls.",
+        "Squad responsibilities include application wide administrative functionality and security controls.",
         "Lead Engineer for Kubernetes native application CI/CD.",
       ]
     },
