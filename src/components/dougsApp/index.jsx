@@ -36,7 +36,7 @@ const DougsApp = () => {
     const [textField, setTextField] = useState('');
 
     const addItem = () => {
-        if (textField != '') {
+        if (textField !== '') {
             const newList = itemsList;
             newList.push(textField);
             setItemsList(newList);
