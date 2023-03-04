@@ -20,21 +20,13 @@ function ProfileCard() {
   return (
 		<Grid container direction="row" spacing={2} className="profile-card" justifyContent="flex-end">
 			<Grid item xs={8} container direction="column">
-				<ContentHeader icon={<PersonIcon />} header="About me" />
-				<ContentItem item>
-					<p>{messages.aboutMe}</p>
-				</ContentItem>
-				<ContentHeader icon={<AssignmentIcon />} header="Skills" />
-				<ContentItem item>
-					<SkillsContainer skills={messages.skills} />
-				</ContentItem>
-				<ContentHeader icon={<WorkIcon />} header="Experience" />
+				<ContentHeader icon={<WorkIcon />} header={{ text: "Experience", size: "medium" }} />
 				<ContentItem item>
 					{messages.experiences.map(experience => {
 						return <Experience experience={experience} />
 					})}
 				</ContentItem>
-				<ContentHeader icon={<SchoolIcon />} header="Education" />
+				<ContentHeader icon={<SchoolIcon />} header={{ text: "Education", size: "medium" }} />
 				<ContentItem item>
 					{messages.education.map(experience => {
 						return <Education experience={experience} />
@@ -44,6 +36,14 @@ function ProfileCard() {
 			<Grid item xs={1} />
 			<Grid item xs={3}>
 				<img alt="Profile" className="image-container" src="/avatar.jpeg" width="5vh" />
+				<ContentHeader icon={<PersonIcon />} header={{ text: "About me", size: "small" }} />
+				<ContentItem item>
+					<p>{messages.aboutMe}</p>
+				</ContentItem>
+				<ContentHeader icon={<AssignmentIcon fontSize='small'/>} header={{ text: "Skills", size: "small" }} />
+				<ContentItem item>
+					<SkillsContainer skills={messages.skills} />
+				</ContentItem>
 			</Grid>
 		</Grid>
   );

@@ -13,7 +13,8 @@ function ContentHeader({icon, header}) {
           {icon}
         </Grid>
         <Grid item>
-          <h2>{header}</h2>
+          { header.size === 'medium' && <h2>{header.text}</h2> }
+          { header.size === 'small' && <h3>{header.text}</h3> }
         </Grid>
       </HeaderContainer>
     )

@@ -13,9 +13,9 @@
 
 .image-container {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     height: auto;
-    margin: 2.75vh;
+    margin-top: 2.75vh;
     border-radius: 1%;
     border-bottom: 2px solid map-get($theme-colours, "accentColour");;
 }

@@ -18,11 +18,11 @@ const StyledEmptySquare = styled(SquareOutlinedIcon)`
 const SkillBar = ({title, rating}) => {
   return (
     <Stack spacing={0}>
-      <h3>{title}</h3>
+      <h4>{title}</h4>
       <StyledRating
         name={title}
         value={rating}
-        size='large'
+        size='medium'
         icon={<SquareIcon fontSize="inherit" />}
         emptyIcon={<StyledEmptySquare fontSize="inherit" />}
         readOnly

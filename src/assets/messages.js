@@ -1,23 +1,33 @@
 const messages = {
-  aboutMe: "My name is Jake Stubbs and I'm a full stack software developer with industry experience in cybersecurity, software defined networking, and large scale application development. I graduated from Queen's University with a bachelor of applied science in May of 2020 and since then I have been working in the telecommunications industry across a variety of unique roles.",
+  aboutMe: "Full stack software developer with industry experience leading technical implementation of secure production grade applications at scale.",
+  aboutMeOld: "My name is Jake Stubbs and I'm a full stack software developer with industry experience in cybersecurity, software defined networking, and large scale application development. I graduated from Queen's University with a bachelor of applied science in May of 2020 and since then I have been working in the telecommunications industry across a variety of unique roles.",
   skills: [
     {title: "ReactJs", rating: 4},
     {title: "NodeJs", rating: 4},
     {title: "GraphQL", rating: 4},
     {title: "Git", rating: 5},
-    {title: "Ansible", rating: 5},
-    {title: "Network security", rating: 3},
-    {title: "Google Cloud", rating: 3},
+    {title: "CI/CD", rating: 5},
+    {title: "API security", rating: 3},
+    {title: "Cloud Computing", rating: 4},
     {title: "Kubernetes", rating: 3},
     {title: "Docker", rating: 3},
-    {title: "Machine learning", rating: 2},
   ],
   experiences: [
+    {
+      title: "Software Engineering Technical Lead",
+      organization: "Symcor",
+      start: "01/2023",
+      end: "Present",
+      descriptionPoints: [
+        "Technical lead on a large scale application enabling secure financial data exchanges.",
+        "Secure APIs built adhering to Financial Grade API and OAuth 2.0 specifications.",
+      ]
+    },
     {
       title: "Software Engineering Team Lead",
       organization: "TELUS",
       start: "09/2022",
-      end: "Present",
+      end: "01/2023",
       descriptionPoints: [
         "Squad leader within a medium sized Agile team.",
         "Squad responsibilities include application wide administrative functionality and security controls.",
