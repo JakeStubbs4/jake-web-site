@@ -5,9 +5,10 @@ import NavIcons from 'components/navicons';
 import * as theme from 'assets/variables.module.scss';
 import './index.scss';
 
-function Header() {
+function Header({ requiredWidth }) {
   
   const handleScroll = () => {
+    if (!requiredWidth) return;
     let header = document.getElementById("header-transform");
     let bottom = header.offsetHeight;
     let opacity = (1 - ((bottom - window.pageYOffset)/bottom));

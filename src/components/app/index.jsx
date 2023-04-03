@@ -10,7 +10,7 @@ function App() {
   const requiredWidth = useMedia('(min-width: 1330px)');
   return (
     <div>
-      <Header />
+      <Header requiredWidth={requiredWidth} />
       { requiredWidth ? <TitlePage /> : <MobileLanding /> }
       { requiredWidth && <Router /> }
     </div>
