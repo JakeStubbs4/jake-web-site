@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Stack } from '@mui/material';
 import messages from 'assets/messages';
 import NavIcons from 'components/navicons';
@@ -35,7 +35,7 @@ function Header() {
       >
         <h2>{messages.fullName} | {messages.title}</h2>
       </Stack>
-      <NavIcons iconSize="large" />
+      <NavIcons iconSize='large' />
     </div>
   );
 }

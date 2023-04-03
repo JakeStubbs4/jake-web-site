@@ -1,0 +1,11 @@
+@import 'src/assets/variables.module.scss';
+
+.mobile-title-page {
+  font-size: 4vh;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  color: map-get($theme-colours, "accentColour");
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

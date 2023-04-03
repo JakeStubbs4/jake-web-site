@@ -21,8 +21,8 @@ const Experience = ({experience}) => {
       </Grid>
       <Grid item>
         <ul className="experience-list">
-          {experience.descriptionPoints.map(bullet => {
-            return <li>{bullet}</li>
+          {experience.descriptionPoints.map((bullet, index) => {
+            return <li key={`${experience.title}-${index}`}>{bullet}</li>
           })}
         </ul>
       </Grid>

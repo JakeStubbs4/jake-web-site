@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Stack from '@mui/material/Stack';
 import './index.scss';
 
-const NavIcons = (props) => {
+const NavIcons = ({ iconSize }) => {
   return (
     <div className="icons-box">
       <Stack
@@ -12,8 +12,8 @@ const NavIcons = (props) => {
         spacing={1}
         alignItems="center"
       >
-        <a href={messages.links.linkedIn}><LinkedInIcon fontSize={props.iconSize} /></a>
-        <a href={messages.links.gitHub}><GitHubIcon fontSize={props.iconSize} /></a>
+        <a href={messages.links.linkedIn}><LinkedInIcon fontSize={iconSize} /></a>
+        <a href={messages.links.gitHub}><GitHubIcon fontSize={iconSize} /></a>
       </Stack>
     </div>
   );

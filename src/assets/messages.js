@@ -1,30 +1,35 @@
 const messages = {
-  aboutMe: "Full stack software developer with industry experience leading technical implementation of secure production grade applications at scale.",
+  aboutMe: "Full stack software developer with industry experience designing and leading the implementation of secure production grade applications at scale.",
   aboutMeOld: "My name is Jake Stubbs and I'm a full stack software developer with industry experience in cybersecurity, software defined networking, and large scale application development. I graduated from Queen's University with a bachelor of applied science in May of 2020 and since then I have been working in the telecommunications industry across a variety of unique roles.",
   skills: [
     {title: "ReactJs", rating: 4},
     {title: "NodeJs", rating: 4},
     {title: "GraphQL", rating: 4},
-    {title: "Git", rating: 5},
+    {title: "Express", rating: 4},
     {title: "CI/CD", rating: 5},
-    {title: "API security", rating: 3},
-    {title: "Cloud Computing", rating: 4},
-    {title: "Kubernetes", rating: 3},
+    {title: "Cloud", rating: 4},
+    {title: "Git", rating: 4},
+    {title: "Application Security", rating: 4},
+    {title: "API Security", rating: 4},
     {title: "Docker", rating: 3},
+    {title: "Kubernetes", rating: 3},
+    {title: "Networking", rating: 3},
   ],
   experiences: [
     {
-      title: "Software Engineering Technical Lead",
+      title: "Technical Lead",
       organization: "Symcor",
       start: "01/2023",
       end: "Present",
       descriptionPoints: [
-        "Technical lead on a large scale application enabling secure financial data exchanges.",
-        "Secure APIs built adhering to Financial Grade API and OAuth 2.0 specifications.",
+        "Technical lead on a large scale application enabling secure financial data exchanges in Canada.",
+        "Lead the implementation of secure APIs adhering to Financial Grade API standards following OAuth 2.0 and FDX specifications.",
+        "Create and delegate development tasks and provide mentorship to developers of all levels.",
+        "Inform and collaborate with architecture on technology and integrations decisions."
       ]
     },
     {
-      title: "Software Engineering Team Lead",
+      title: "Team Lead",
       organization: "TELUS",
       start: "09/2022",
       end: "01/2023",
@@ -45,7 +50,7 @@ const messages = {
       ]
     },
     {
-      title: "Software Defined Networking DevOps Engineer",
+      title: "Software Defined Network Engineer",
       organization: "TELUS",
       start: "03/2021",
       end: "12/2021",
@@ -54,7 +59,7 @@ const messages = {
       ]
     },
     {
-      title: "Security DevOps Engineer",
+      title: "Security Engineer",
       organization: "TELUS",
       start: "07/2020",
       end: "03/2021",

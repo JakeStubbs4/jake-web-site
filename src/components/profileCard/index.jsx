@@ -23,13 +23,13 @@ function ProfileCard() {
 				<ContentHeader icon={<WorkIcon />} header={{ text: "Experience", size: "medium" }} />
 				<ContentItem item>
 					{messages.experiences.map(experience => {
-						return <Experience experience={experience} />
+						return <Experience key={experience.title} experience={experience} />
 					})}
 				</ContentItem>
 				<ContentHeader icon={<SchoolIcon />} header={{ text: "Education", size: "medium" }} />
 				<ContentItem item>
 					{messages.education.map(experience => {
-						return <Education experience={experience} />
+						return <Education key={experience.title} experience={experience} />
 					})}
 				</ContentItem>
 			</Grid>
