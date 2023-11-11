@@ -1,3 +1,3 @@
 # Personal website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple web application displaying my professional experience available at  [jake-stubbs.com](https://www.jake-stubbs.com).
