@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import messages from 'assets/messages';
 import { Stack, Divider } from '@mui/material';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
-import * as theme from 'assets/variables.module.scss';
+import theme from 'assets/variables.module.scss';
 import './index.scss';
 
 const StyledDivider = styled(Divider)`

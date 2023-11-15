@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import messages from 'assets/messages';
 import { Stack, Divider } from '@mui/material';
-import * as theme from 'assets/variables.module.scss';
+import theme from 'assets/variables.module.scss';
 import './index.scss';
 
 const StyledDivider = styled(Divider)`

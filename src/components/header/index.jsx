@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Stack } from '@mui/material';
 import messages from 'assets/messages';
 import NavIcons from 'components/navicons';
-import * as theme from 'assets/variables.module.scss';
+import theme from 'assets/variables.module.scss';
 import './index.scss';
 
 function Header({ requiredWidth }) {
@@ -11,7 +11,7 @@ function Header({ requiredWidth }) {
     if (!requiredWidth) return;
     let header = document.getElementById("header-transform");
     let bottom = header.offsetHeight;
-    let opacity = (1 - ((bottom - window.pageYOffset)/bottom));
+    let opacity = (1 - ((bottom - window.scrollY)/bottom));
     header.style.color = `rgba(${theme.textColourRGB}, ${theme.textColourRGB}, ${theme.textColourRGB}, ${opacity})`;
     header.style.backgroundColor = `rgba(${theme.primaryColourR}, ${theme.primaryColourG}, ${theme.primaryColourB}, ${opacity})`;
     header.style.borderBottomColor = `rgba(${theme.accentColourR}, ${theme.accentColourG}, ${theme.accentColourB}, ${opacity})`;
