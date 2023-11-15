@@ -23,7 +23,7 @@ function Header({ requiredWidth }) {
   }, [])
 
   return (
-    <div 
+    <div
       className="app-header" 
       id="header-transform"
     >
