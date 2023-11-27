@@ -1,6 +1,11 @@
 const messages = {
+  fullName: "Jake Stubbs",
+  title: "Software & Application Security Engineer",
+  links: {
+    linkedIn: "https://linkedin.com/in/jake-stubbs-software",
+    gitHub: "https://github.com/JakeStubbs4/"
+  },
   aboutMe: "Full stack software developer with industry experience designing and leading the implementation of secure production grade applications at scale.",
-  aboutMeOld: "My name is Jake Stubbs and I'm a full stack software developer with industry experience in cybersecurity, software defined networking, and large scale application development. I graduated from Queen's University with a bachelor of applied science in May of 2020 and since then I have been working in the telecommunications industry across a variety of unique roles.",
   skills: [
     {title: "ReactJs", rating: 4},
     {title: "NodeJs", rating: 4},
@@ -68,7 +73,7 @@ const messages = {
       ]
     },
     {
-      title: "Security Engineer [4 month co-op]",
+      title: "Security Engineer [Internship]",
       organization: "Department of National Defence",
       start: "05/2019",
       end: "08/2019",
@@ -77,7 +82,7 @@ const messages = {
       ]
     },
     {
-      title: "Full Stack Software Developer [4 month co-op]",
+      title: "Full Stack Software Developer [Internship]",
       organization: "Palmer Andersen",
       start: "05/2018",
       end: "08/2018",
@@ -97,12 +102,6 @@ const messages = {
       end: "05/2020",
     },
   ],
-  fullName: "Jake Stubbs",
-  title: "Software & Security Engineer",
-  links: {
-    linkedIn: "https://linkedin.com/in/jake-stubbs-software",
-    gitHub: "https://github.com/JakeStubbs4/"
-  }
 };
 
 export default messages;
