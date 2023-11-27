@@ -1,6 +1,6 @@
 const messages = {
   fullName: "Jake Stubbs",
-  title: "Software & Application Security Engineer",
+  title: "Software & Security Engineer",
   links: {
     linkedIn: "https://linkedin.com/in/jake-stubbs-software",
     gitHub: "https://github.com/JakeStubbs4/"
