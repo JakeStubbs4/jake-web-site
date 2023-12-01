@@ -13,11 +13,11 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
-          <HomePageRoute/>
-        </Route>
         <Route path="/bgwc">
           <BGWCRoute/>
+        </Route>
+        <Route>
+          <HomePageRoute/>
         </Route>
       </Switch>
     </BrowserRouter>
