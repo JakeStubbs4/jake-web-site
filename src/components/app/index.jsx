@@ -13,8 +13,12 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/bgwc" component={BGWCRoute} />
-        <Route component={HomePageRoute} />
+        <Route exact path="/">
+          <HomePageRoute/>
+        </Route>
+        <Route path="/bgwc">
+          <BGWCRoute/>
+        </Route>
       </Switch>
     </BrowserRouter>
   );
