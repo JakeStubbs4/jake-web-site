@@ -10,7 +10,7 @@ const StyledDivider = styled(Divider)`
   width: 1px;
 `;
 
-function TitlePage() {
+function BGWCTitlePage() {
 
   return (
     <div className='title-page-box'>
@@ -35,4 +35,4 @@ function TitlePage() {
   );
 }
 
-export default TitlePage;
+export default BGWCTitlePage;

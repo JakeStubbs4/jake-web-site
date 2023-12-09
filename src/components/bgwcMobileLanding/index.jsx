@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import messages from 'assets/messages';
+import messages from 'assets/bgwc-messages';
 import { Stack, Divider } from '@mui/material';
 import theme from 'assets/variables.module.scss';
 import './index.scss';
@@ -10,7 +10,7 @@ const StyledDivider = styled(Divider)`
   width: 1px;
 `;
 
-function MobileLanding() {
+function BGWCMobileLanding() {
   return (
     <div className="mobile-title-page">
       <Stack
@@ -32,4 +32,4 @@ function MobileLanding() {
   );
 }
 
-export default MobileLanding;
+export default BGWCMobileLanding;
