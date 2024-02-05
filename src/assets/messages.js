@@ -1,3 +1,8 @@
+export const EDUCATION_TYPES_ENUM = {
+  DEGREE: "DEGREE",
+  CERTIFICATION: "CERTIFICATION",
+};
+
 const messages = {
   fullName: "Jake Stubbs",
   title: "Software & Security Engineer",
@@ -5,20 +10,19 @@ const messages = {
     linkedIn: "https://linkedin.com/in/jake-stubbs-software",
     gitHub: "https://github.com/JakeStubbs4/"
   },
-  aboutMe: "Full stack software developer with industry experience designing and leading the implementation of secure production grade applications at scale.",
+  aboutMe: "Technical leader and security architect with industry experience designing and leading the implementation of secure production grade applications at scale.",
   skills: [
-    {title: "ReactJs", rating: 4},
-    {title: "NodeJs", rating: 4},
-    {title: "GraphQL", rating: 4},
-    {title: "Express", rating: 4},
-    {title: "CI/CD", rating: 5},
-    {title: "Cloud", rating: 4},
-    {title: "Git", rating: 4},
+    {title: "API Security", rating: 5},
     {title: "Application Security", rating: 4},
-    {title: "API Security", rating: 4},
-    {title: "Docker", rating: 3},
+    {title: "Git", rating: 5},
+    {title: "Cloud [Azure, GCP]", rating: 4},
     {title: "Kubernetes", rating: 3},
     {title: "Networking", rating: 3},
+    {title: "ReactJs", rating: 4},
+    {title: "NodeJs", rating: 4},
+    {title: "CI/CD", rating: 5},
+    {title: "GraphQL", rating: 4},
+    {title: "Express", rating: 4},
   ],
   experiences: [
     {
@@ -28,9 +32,9 @@ const messages = {
       end: "Present",
       descriptionPoints: [
         "Technical lead on a large scale application enabling secure financial data exchanges in Canada.",
-        "Lead the implementation of secure APIs adhering to Financial Grade API standards following OAuth 2.0 and FDX specifications.",
+        "Design and lead the implementation of secure APIs adhering to Financial Grade API standards following OAuth 2.0 and FDX specifications.",
         "Create and delegate development tasks and provide mentorship to developers of all levels.",
-        "Inform and collaborate with architecture on technology and integrations decisions."
+        "Inform and collaborate with enterprise architecture on technology and integrations decisions."
       ]
     },
     {
@@ -94,12 +98,20 @@ const messages = {
   ],
   education: [
     {
+      type: EDUCATION_TYPES_ENUM.DEGREE,
       title: "Bachelor of Applied Science",
       institution: "Queen's University",
       specialization: "Mathematics and Engineering, Computing and Communications.",
-      link: '',
       start: "08/2016",
       end: "05/2020",
+    },
+    {
+      type: EDUCATION_TYPES_ENUM.CERTIFICATION,
+      title: "Cisco Certified Network Associate [CCNA]",
+      link: 'https://cp.certmetrics.com/cisco/en/public/verify/credential/3296cddca1a94fe3b0b83cf462e8e374',
+      credentialId: "3296cddca1a94fe3b0b83cf462e8e374",
+      issued: "10/2022",
+      expires: "10/2027",
     },
   ],
 };

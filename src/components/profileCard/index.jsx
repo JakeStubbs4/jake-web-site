@@ -40,7 +40,7 @@ function ProfileCard() {
 				<ContentItem item>
 					<p>{messages.aboutMe}</p>
 				</ContentItem>
-				<ContentHeader icon={<AssignmentIcon fontSize='small'/>} header={{ text: "Skills", size: "small" }} />
+				<ContentHeader icon={<AssignmentIcon fontSize='small'/>} header={{ text: "Skills", size: "small" }} tooltip={messages.skillsDisclaimer} />
 				<ContentItem item>
 					<SkillsContainer skills={messages.skills} />
 				</ContentItem>

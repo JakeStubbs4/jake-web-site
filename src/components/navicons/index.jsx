@@ -12,8 +12,8 @@ const NavIcons = ({ iconSize }) => {
         spacing={1}
         alignItems="center"
       >
-        <a href={messages.links.linkedIn}><LinkedInIcon fontSize={iconSize} /></a>
-        <a href={messages.links.gitHub}><GitHubIcon fontSize={iconSize} /></a>
+        <a href={messages.links.linkedIn} target="_blank" rel="noopener noreferrer"><LinkedInIcon fontSize={iconSize} /></a>
+        <a href={messages.links.gitHub} target="_blank" rel="noopener noreferrer"><GitHubIcon fontSize={iconSize} /></a>
       </Stack>
     </div>
   );
