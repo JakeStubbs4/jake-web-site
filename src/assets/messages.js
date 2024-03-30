@@ -10,7 +10,7 @@ const messages = {
     linkedIn: "https://linkedin.com/in/jake-stubbs-software",
     gitHub: "https://github.com/JakeStubbs4/"
   },
-  aboutMe: "Technical leader and security architect with industry experience designing and leading the implementation of secure production grade applications at scale.",
+  aboutMe: "Technical leader and solutions architect with industry experience designing and leading the implementation of secure production grade applications at scale.",
   skills: [
     {title: "API Security", rating: 5},
     {title: "Application Security", rating: 4},
