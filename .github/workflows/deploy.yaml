@@ -50,7 +50,7 @@ jobs:
       - name: Create build
         run: npm run build
         env: 
-          CI: false
+          CI: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
