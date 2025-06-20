@@ -20,7 +20,7 @@ function Header({ requiredWidth }) {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, true);
     handleScroll();
-  }, [])
+  })
 
   return (
     <div
@@ -29,7 +29,6 @@ function Header({ requiredWidth }) {
     >
       <Stack
         direction="row"
-        spacing={1.5}
         alignItems="baseline"
         justifyContent="flex-start"
         className="app-title"

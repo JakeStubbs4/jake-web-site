@@ -1,17 +1,39 @@
 @import 'src/assets/variables.module.scss';
 
 .experience-title {
-    color: map-get($theme-colours, "accentColour");
-    align-items: center;
-    display: flex;
+  color: map-get($theme-colours, "accentColour");
 }
 
 .experience-timeline {
-    position: relative;
-    text-align: end;
-    flex: 1;
+  position: relative;
+  text-align: end;
+  flex: 1;
 }
 
-.experience-list {
-    margin-top: -1vh;
+.reduce-whitespace-organization {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.reduce-top-margin-experience-list {
+  margin-top: 8px;
+}
+
+.space-between-experience-list-items {
+  margin-top: 2px;
+}
+
+.remove-whitespace-role {
+  padding: 0;
+  margin: 0;
+}
+
+.add-whitespace-between-roles {
+  margin-bottom: 3px;
+}
+
+.role-container {
+  padding-left: 2vh;
 }

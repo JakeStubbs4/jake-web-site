@@ -42,7 +42,7 @@ jobs:
       - name: Set up NodeJS environment
         uses: actions/setup-node@v4
         with:
-          node-version: 21
+          node-version: 23.9
 
       - name: Install package dependencies
         run: npm ci

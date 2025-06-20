@@ -1,0 +1,24 @@
+@import 'src/assets/variables.module.scss';
+
+.image-container {
+  max-width: 400px;
+}
+
+.image {
+  border-radius: 1%;
+  max-width: 400px;
+}
+
+.highlight-intro {
+  color: map-get($theme-colours, "accentColour");
+  padding: 0;
+  margin: 0;
+}
+
+.reduce-top-margin-highlight-list {
+  margin-top: 8px;
+}
+
+.space-between-highlight-list-items {
+  margin-top: 2px;
+}
