@@ -9,11 +9,11 @@ const NavIcons = ({ iconSize }) => {
     <div className="icons-box">
       <Stack
         direction="row"
-        spacing={1}
+        spacing={3}
         alignItems="center"
       >
-        <a href={messages.links.linkedIn} target="_blank" rel="noopener noreferrer"><LinkedInIcon fontSize={iconSize} /></a>
-        <a href={messages.links.gitHub} target="_blank" rel="noopener noreferrer"><GitHubIcon fontSize={iconSize} /></a>
+        <a href={messages.links.linkedIn} target="_blank" rel="noopener noreferrer" className="nav-icon"><LinkedInIcon fontSize={iconSize} /></a>
+        <a href={messages.links.gitHub} target="_blank" rel="noopener noreferrer" className="nav-icon"><GitHubIcon fontSize={iconSize} /></a>
       </Stack>
     </div>
   );

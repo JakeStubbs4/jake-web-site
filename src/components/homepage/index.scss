@@ -1,9 +1,17 @@
 @import 'src/assets/variables.module.scss';
 
 .homepage-container {
-  background-color: map-get($theme-colours, "primaryColour");
+  padding-top: 96vh;
+}
+
+.content-card {
   display: flex;
-  margin: 4vh 1vh 1.5vh 1vh;
+  background-color: map-get($theme-colours, "primaryColour");
+  padding-left: 4vh;
+  padding-right: 2vh;
+  padding-bottom: 2vh;
   color: map-get($theme-colours, "textColour");
-  border-bottom: 3px solid map-get($theme-colours, "accentColour");
+  margin: 4vh 0vh 0vh 2vh;
+  border-bottom: 2px solid map-get($theme-colours, "accentColour");
+  border-radius: 1%;
 }

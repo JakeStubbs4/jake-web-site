@@ -5,7 +5,7 @@
     display: flex;
     padding: 0 0 0 5%;
     color: rgba(map-get($theme-colours, "textColourRGB"), map-get($theme-colours, "textColourRGB"), map-get($theme-colours, "textColourRGB"), 0);
-    border-bottom: 3px solid rgba(map-get($theme-colours, "accentColourR"), map-get($theme-colours, "accentColourG"), map-get($theme-colours, "accentColourB"), 0);
+    border-bottom: 2px solid rgba(map-get($theme-colours, "accentColourR"), map-get($theme-colours, "accentColourG"), map-get($theme-colours, "accentColourB"), 0);
     position: fixed;
     top: 0;
     width: 95%;

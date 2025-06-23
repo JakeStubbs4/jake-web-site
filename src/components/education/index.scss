@@ -1,17 +1,17 @@
 @import 'src/assets/variables.module.scss';
 
 .education-title {
-    color: map-get($theme-colours, "accentColour");
-    align-items: center;
-    display: flex;
+  color: map-get($theme-colours, "accentColour");
+  align-items: center;
+  display: flex;
 }
 
 .education-timeline {
-    position: relative;
-    text-align: end;
-    flex: 1;
+  position: relative;
+  text-align: end;
+  flex: 1;
 }
 
 .specialization-content {
-    color: map-get($theme-colours, "accentColour");
+  color: map-get($theme-colours, "accentColour");
 }

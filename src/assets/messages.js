@@ -3,97 +3,158 @@ export const EDUCATION_TYPES_ENUM = {
   CERTIFICATION: "CERTIFICATION",
 };
 
+const LOCATION_TYPES_ENUM = {
+  REMOTE: "Remote",
+  OFFICE: "In Office",
+}
+
 const messages = {
   fullName: "Jake Stubbs",
-  title: "Software & Security Engineer",
+  title: "Software Engineer & Architect",
   links: {
     linkedIn: "https://linkedin.com/in/jake-stubbs-software",
     gitHub: "https://github.com/JakeStubbs4/"
   },
-  aboutMe: "Technical leader and solutions architect with industry experience designing and leading the implementation of secure production grade applications at scale.",
-  skills: [
-    {title: "API Security", rating: 5},
-    {title: "Application Security", rating: 4},
-    {title: "Git", rating: 5},
-    {title: "Cloud [Azure, GCP]", rating: 4},
-    {title: "Kubernetes", rating: 3},
-    {title: "Networking", rating: 3},
-    {title: "ReactJs", rating: 4},
-    {title: "NodeJs", rating: 4},
-    {title: "CI/CD", rating: 5},
-    {title: "GraphQL", rating: 4},
-    {title: "Express", rating: 4},
-  ],
-  experiences: [
+  aboutMe: {
+    intro: "I am a software engineer with professional experience spanning the financial services, telecommunications, and cybersecurity industries. With a multifaceted skill set in software development and architecture, I am passionate about solving problems relating to...",
+    callToAction: "If your organization is facing challenges with software design and could benefit from expertise in any of these domains, get in touch with me on ",
+    highlights: [
+      {
+        intro: "Architecture, design, and development of production grade web applications and APIs",
+        skills: [
+          "Secure, reliable, performant, and cost efficient cloud architecture",
+          "Caching and transactional database design",
+          "Development of distributed systems which are observable, operable, and maintainable",
+        ],
+      },
+      {
+        intro: "Web application and API security",
+        skills: [
+          "Application and network security",
+          "Secure software development",
+          "Cryptography, authentication, and authorization",
+        ],
+      },
+      {
+        intro: "Continuous integration and continuous deployment [CI/CD]",
+        skills: [
+          "Automated integration testing, code quality gates, and static application security testing",
+          "Containerization, infrastructure as code, and configuration as code",
+        ],
+      },
+      {
+        intro: "Open Banking and third-party API integrations",
+        skills: [
+          "OAuth 2.0 and supporting protocols",
+          "Open ID Foundations Financial Grade API [FAPI 2.0] specifications",
+          "Financial Data Exchange [FDX] standards and API specifications",
+        ]
+      },
+      {
+        intro: "Data science and machine learning",
+        skills: [
+          "Batch and stream processing using Databricks and Apache Spark",
+          "Machine learning operations [continuous model training, monitoring and analysis, and model serving]",
+          "Data warehouse design and OLAP database systems",
+        ]
+      },
+    ],
+  },
+  experience: [
     {
-      title: "Technical Lead",
-      organization: "Symcor",
-      start: "01/2023",
-      end: "Present",
-      descriptionPoints: [
-        "Technical lead on a large scale application enabling secure financial data exchanges in Canada.",
-        "Design and lead the implementation of secure APIs adhering to Financial Grade API standards following OAuth 2.0 and FDX specifications.",
-        "Create and delegate development tasks and provide mentorship to developers of all levels.",
-        "Inform and collaborate with enterprise architecture on technology and integrations decisions."
-      ]
+      organizationName: "Symcor Inc.",
+      location: "Toronto, ON, Canada",
+      locationType: LOCATION_TYPES_ENUM.REMOTE,
+      roles: [
+        {
+          title: "Technical Solutions Architect II [Open Banking]",
+          start: "6/2024",
+          end: "Present",
+          descriptionPoints: null,
+        },
+        {
+          title: "Software Engineering Technical Lead [Open Banking]",
+          start: "01/2023",
+          end: "06/2024",
+          descriptionPoints: [
+            "Led the design and implementation of an Open Banking platform to enable the secure exchange of Canadian consumers financial data between third-party applications and the nation's largest financial institutions.",
+            "Designed and developed Financial Data Exchange [FDX] APIs adhering to the OpenID Foundations Financial Grade API [FAPI 2.0] security profile.",
+            "Delivered machine learning solutions with continuous learning and real-time inference capabilities.",
+            "Developed data schemas and pipelines to establish a data warehouse and integrated materialized views with Microsoft Power BI to provide product and customer insights.",
+          ],
+        },
+      ],
     },
     {
-      title: "Team Lead",
-      organization: "TELUS",
-      start: "09/2022",
-      end: "01/2023",
-      descriptionPoints: [
-        "Squad leader within a medium sized Agile team.",
-        "Squad responsibilities include application wide administrative functionality and security controls.",
-        "Lead Engineer for Kubernetes native application CI/CD.",
-      ]
+      organizationName: "TELUS Communications",
+      location: "Toronto, ON, Canada",
+      locationType: LOCATION_TYPES_ENUM.REMOTE,
+      roles: [
+        {
+          title: "Squad Leader",
+          start: "09/2022",
+          end: "01/2023",
+          descriptionPoints: null,
+        },
+        {
+          title: "Software Engineer",
+          start: "12/2021",
+          end: "01/2023",
+          descriptionPoints: [
+            "Oversaw and contributed to the design and full-stack development of a web-based project management application owning a micro-frontend module and application wide security and access controls.",
+            "Led the implementation of CI/CD pipelines to test and deploy the application to Google Kubernetes Engine.",
+          ],
+        },
+        {
+          title: "Software Engineer [Core Networking/SDN]",
+          start: "03/2021",
+          end: "12/2021",
+          descriptionPoints: [
+            "Designed, developed, and maintained applications to generate and deploy configuration to network devices.",
+            "Planned and executed manual tasks to configure networking equipment for the TELUS core network.",
+          ],
+        },
+        {
+          title: "Software Engineer [TELUS Security]",
+          organization: "TELUS",
+          start: "07/2020",
+          end: "03/2021",
+          descriptionPoints: [
+            "Developed software solutions focused on the integration of cloud and automation into next-generation B2B security products.",
+            "Led a new initiative to design and develop a web application which automatically collected and reported on the teams KPIs to further drive adoption of automation and cloud.",
+          ],
+        },
+      ],
     },
     {
-      title: "Software Development Engineer",
-      organization: "TELUS",
-      start: "12/2021",
-      end: "09/2022",
-      descriptionPoints: [
-        "Working in a medium-sized agile team to develop a large scale application with ReactJS, Redux, NodeJS, GraphQL, and Redis.",
-        "Strong focus on code quality with testing using Jest and employing CI/CD best practices."
-      ]
+      organizationName: "Department of National Defence",
+      location: "Ottawa, ON, Canada",
+      locationType: LOCATION_TYPES_ENUM.OFFICE,
+      roles: [
+        {
+          title: "Security Engineer [Internship]",
+          start: "05/2019",
+          end: "08/2019",
+          descriptionPoints: [
+            "Worked with various technologies to determine creative solutions to problems relating to Canada’s national cyber security posture.",
+          ],
+        },
+      ],
     },
     {
-      title: "Software Defined Network Engineer",
-      organization: "TELUS",
-      start: "03/2021",
-      end: "12/2021",
-      descriptionPoints: [
-        "The functions of this role included operational and development tasks to deploy and configure equipment for the TELUS core network.",
-      ]
-    },
-    {
-      title: "Security Engineer",
-      organization: "TELUS",
-      start: "07/2020",
-      end: "03/2021",
-      descriptionPoints: [
-        "Worked with an agile team of developers to incorporate automation into the design of managed security products for TELUS Business Security Solutions.",
-      ]
-    },
-    {
-      title: "Security Engineer [Internship]",
-      organization: "Department of National Defence",
-      start: "05/2019",
-      end: "08/2019",
-      descriptionPoints: [
-        "Worked with a variety of technologies to determine creative solutions to problems relating to Canada’s national cyber security posture.",
-      ]
-    },
-    {
-      title: "Full Stack Software Developer [Internship]",
-      organization: "Palmer Andersen",
-      start: "05/2018",
-      end: "08/2018",
-      descriptionPoints: [
-        "Designed and developed web-based software applications using JavaScript, PHP, html, and CSS.",
-        "Communicated with clients to understand their design requirements and programmed applications based on clients input and feedback."
-      ]
+      organizationName: "Palmer Andersen",
+      location: "Thornbury, ON, Canada",
+      locationType: LOCATION_TYPES_ENUM.OFFICE,
+      roles: [
+        {
+          title: "Software Developer [Internship]",
+          start: "05/2018",
+          end: "08/2018",
+          descriptionPoints: [
+            "Interfaced with clients to deliver new application features based on their requirements and feedback.",
+          ],
+        },
+      ],
     }
   ],
   education: [
@@ -111,7 +172,7 @@ const messages = {
       link: 'https://cp.certmetrics.com/cisco/en/public/verify/credential/3296cddca1a94fe3b0b83cf462e8e374',
       credentialId: "3296cddca1a94fe3b0b83cf462e8e374",
       issued: "10/2022",
-      expires: "10/2027",
+      expires: "10/2025",
     },
   ],
 };
