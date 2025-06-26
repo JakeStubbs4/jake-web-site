@@ -9,6 +9,10 @@
   max-width: 400px;
 }
 
+.about-me-intro { 
+  margin-top: 0;
+}
+
 .highlight-intro {
   color: map-get($theme-colours, "accentColour");
   padding: 0;

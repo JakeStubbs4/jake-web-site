@@ -10,7 +10,7 @@ function AboutMeCard() {
       <ContentHeader icon={<PersonIcon />} header={{ text: "About me", size: "medium" }} />
       <Stack direction="row" spacing={5}>
         <div>
-          <p>{messages.aboutMe.intro}</p>
+          <p className="about-me-intro">{messages.aboutMe.intro}</p>
           { messages.aboutMe.highlights?.map((highlight, highlightIdx) => {
             return (
               <div>

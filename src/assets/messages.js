@@ -17,23 +17,33 @@ const messages = {
   },
   aboutMe: {
     intro: "I am a software engineer with professional experience spanning the financial services, telecommunications, and cybersecurity industries. With a multifaceted skill set in software development and architecture, I am passionate about solving problems relating to...",
-    callToAction: "If your organization is facing challenges with software design and could benefit from expertise in any of these domains, get in touch with me on ",
+    callToAction: "If you could benefit from expertise in any of these domains, get in touch on ",
     highlights: [
       {
         intro: "Architecture, design, and development of production grade web applications and APIs",
         skills: [
           "Secure, reliable, performant, and cost efficient cloud architecture",
-          "Caching and transactional database design",
-          "Development of distributed systems which are observable, operable, and maintainable",
         ],
       },
       {
         intro: "Web application and API security",
         skills: [
-          "Application and network security",
-          "Secure software development",
-          "Cryptography, authentication, and authorization",
+          "Best practices for secure coding, network security, web service protection, authentication, and authorization",
         ],
+      },
+      {
+        intro: "Open Banking and third-party API integrations",
+        skills: [
+          "OAuth 2.0 and supporting protocols including the Open ID Foundations Financial Grade API [FAPI 2.0] security profile",
+          "Financial Data Exchange [FDX] standards and API specifications",
+        ]
+      },
+      {
+        intro: "Data science and machine learning",
+        skills: [
+          "Batch and stream processing using Databricks and Apache Spark to design data warehouses and perform analytics",
+          "Machine learning implementation and operations [continuous model training, monitoring and analysis, and model serving]",
+        ]
       },
       {
         intro: "Continuous integration and continuous deployment [CI/CD]",
@@ -41,22 +51,6 @@ const messages = {
           "Automated integration testing, code quality gates, and static application security testing",
           "Containerization, infrastructure as code, and configuration as code",
         ],
-      },
-      {
-        intro: "Open Banking and third-party API integrations",
-        skills: [
-          "OAuth 2.0 and supporting protocols",
-          "Open ID Foundations Financial Grade API [FAPI 2.0] specifications",
-          "Financial Data Exchange [FDX] standards and API specifications",
-        ]
-      },
-      {
-        intro: "Data science and machine learning",
-        skills: [
-          "Batch and stream processing using Databricks and Apache Spark",
-          "Machine learning operations [continuous model training, monitoring and analysis, and model serving]",
-          "Data warehouse design and OLAP database systems",
-        ]
       },
     ],
   },
