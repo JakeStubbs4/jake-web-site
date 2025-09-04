@@ -61,20 +61,27 @@ const messages = {
       locationType: LOCATION_TYPES_ENUM.REMOTE,
       roles: [
         {
-          title: "Technical Solutions Architect II [Open Banking]",
+          title: "Technical Solutions Architect II [Open Banking, Payments Fraud]",
           start: "6/2024",
           end: "Present",
-          descriptionPoints: null,
+          descriptionPoints: [
+            "As the lead technical architect, I designed open banking and payments fraud products serving hundreds of real-time API requests per second and analyzing over 5 million payments per day using machine learning.",
+            "Achieved a 20% reduction in annual cloud infrastructure costs.",
+            "Increased real-time API request capacity by 10X while enhancing workload operability.",
+            "Mentored and provided technical direction to a division of over 25 Software and Quality Assurance Engineers.",
+            "Designed zero-trust security architectures for Kubernetes and serverless runtimes hosted on Cloudflare, Microsoft Azure, and on-premises environments.",
+            "Designed batch, stream, and real-time processing systems for data science and machine learning applications.",
+          ],
         },
         {
           title: "Software Engineering Technical Lead [Open Banking]",
           start: "01/2023",
           end: "06/2024",
           descriptionPoints: [
-            "Led the design and implementation of an Open Banking platform to enable the secure exchange of Canadian consumers financial data between third-party applications and the nation's largest financial institutions.",
-            "Designed and developed Financial Data Exchange [FDX] APIs adhering to the OpenID Foundations Financial Grade API [FAPI 2.0] security profile.",
-            "Delivered machine learning solutions with continuous learning and real-time inference capabilities.",
-            "Developed data schemas and pipelines to establish a data warehouse and integrated materialized views with Microsoft Power BI to provide product and customer insights.",
+            "Led a team of 10 Software and Quality Assurance Engineers in the design and delivery of applications and Financial Data Exchange (FDX) APIs to enable open banking for over 30 million Canadian consumers.",
+            "Led a team of 4 Software Engineers in delivering machine learning solutions using PySpark and Databricks.",
+            "Developed applications and APIs using TypeScript, Node, Express, React, GraphQL, Azure and Cloudflare.",
+            "Implemented secure standards for authentication, authorization, and cryptography. Achieved certification from the OpenID Foundation for conformance to the Financial Grade API (FAPI 2.0) security profile.",
           ],
         },
       ],
@@ -85,67 +92,14 @@ const messages = {
       locationType: LOCATION_TYPES_ENUM.REMOTE,
       roles: [
         {
-          title: "Squad Leader",
-          start: "09/2022",
-          end: "01/2023",
-          descriptionPoints: null,
-        },
-        {
-          title: "Software Engineer",
-          start: "12/2021",
-          end: "01/2023",
-          descriptionPoints: [
-            "Oversaw and contributed to the design and full-stack development of a web-based project management application owning a micro-frontend module and application wide security and access controls.",
-            "Led the implementation of CI/CD pipelines to test and deploy the application to Google Kubernetes Engine.",
-          ],
-        },
-        {
-          title: "Software Engineer [Core Networking/SDN]",
-          start: "03/2021",
-          end: "12/2021",
-          descriptionPoints: [
-            "Designed, developed, and maintained applications to generate and deploy configuration to network devices.",
-            "Planned and executed manual tasks to configure networking equipment for the TELUS core network.",
-          ],
-        },
-        {
-          title: "Software Engineer [TELUS Security]",
-          organization: "TELUS",
+          title: "Software Engineer & Squad Lead",
           start: "07/2020",
-          end: "03/2021",
+          end: "01/2023",
           descriptionPoints: [
-            "Developed software solutions focused on the integration of cloud and automation into next-generation B2B security products.",
-            "Led a new initiative to design and develop a web application which automatically collected and reported on the teams KPIs to further drive adoption of automation and cloud.",
-          ],
-        },
-      ],
-    },
-    {
-      organizationName: "Department of National Defence",
-      location: "Ottawa, ON, Canada",
-      locationType: LOCATION_TYPES_ENUM.OFFICE,
-      roles: [
-        {
-          title: "Security Engineer [Internship]",
-          start: "05/2019",
-          end: "08/2019",
-          descriptionPoints: [
-            "Worked with various technologies to determine creative solutions to problems relating to Canada’s national cyber security posture.",
-          ],
-        },
-      ],
-    },
-    {
-      organizationName: "Palmer Andersen",
-      location: "Thornbury, ON, Canada",
-      locationType: LOCATION_TYPES_ENUM.OFFICE,
-      roles: [
-        {
-          title: "Software Developer [Internship]",
-          start: "05/2018",
-          end: "08/2018",
-          descriptionPoints: [
-            "Interfaced with clients to deliver new application features based on their requirements and feedback.",
+            "Led a squad of 3 Software Engineers in the design and development of a micro-frontend module and role-based access controls for a project management application using React.js, Redux, Node.js, GraphQL, and Redis.",
+            "Implemented CI/CD pipelines with GitHub Actions and Google Cloud Deploy to build and deploy microservice applications to Google Kubernetes Engine and execute automated regression testing with Cypress.",
+            "Developed applications to manage the configuration of network devices using Python, Flask, and Gitlab CI/CD achieving 80% automation coverage.",
+            "Modernized managed security products using Java, Spring, React.js, Ansible AWX, Postgres, and Microsoft Azure reducing operational efforts by over 600 hours per year.",
           ],
         },
       ],
