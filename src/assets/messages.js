@@ -41,7 +41,7 @@ const messages = {
       {
         intro: "Data science and machine learning",
         skills: [
-          "Batch and stream processing using Databricks and Apache Spark to design data warehouses and perform analytics",
+          "Batch and stream processing using Databricks and Apache Spark for data warehousing and analytics",
           "Machine learning implementation and operations [continuous model training, monitoring and analysis, and model serving]",
         ]
       },
@@ -61,20 +61,20 @@ const messages = {
       locationType: LOCATION_TYPES_ENUM.REMOTE,
       roles: [
         {
-          title: "Technical Solutions Architect II [Open Banking, Payments Fraud]",
+          title: "Senior Software Architect | Open Banking & Payments Fraud",
           start: "6/2024",
           end: "Present",
           descriptionPoints: [
-            "As the lead technical architect, I designed open banking and payments fraud products serving hundreds of real-time API requests per second and analyzing over 5 million payments per day using machine learning.",
+            "As the lead software architect, I designed open banking and payments fraud products to serve hundreds of real-time API requests per second and analyze millions of payments per day using machine learning.",
             "Achieved a 20% reduction in annual cloud infrastructure costs.",
             "Increased real-time API request capacity by 10X while enhancing workload operability.",
-            "Mentored and provided technical direction to a division of over 25 Software and Quality Assurance Engineers.",
+            "Mentored and provided technical direction to a division of over 25 Software Engineers.",
             "Designed zero-trust security architectures for Kubernetes and serverless runtimes hosted on Cloudflare, Microsoft Azure, and on-premises environments.",
             "Designed batch, stream, and real-time processing systems for data science and machine learning applications.",
           ],
         },
         {
-          title: "Software Engineering Technical Lead [Open Banking]",
+          title: "Software Engineering Technical Lead | Open Banking",
           start: "01/2023",
           end: "06/2024",
           descriptionPoints: [
@@ -96,7 +96,7 @@ const messages = {
           start: "07/2020",
           end: "01/2023",
           descriptionPoints: [
-            "Led a squad of 3 Software Engineers in the design and development of a micro-frontend module and role-based access controls for a project management application using React.js, Redux, Node.js, GraphQL, and Redis.",
+            "Led a squad of 3 Software Engineers in the design and development of micro-frontend modules and role-based access controls for a project management application using React.js, Redux, Node.js, GraphQL, and Redis.",
             "Implemented CI/CD pipelines with GitHub Actions and Google Cloud Deploy to build and deploy microservice applications to Google Kubernetes Engine and execute automated regression testing with Cypress.",
             "Developed applications to manage the configuration of network devices using Python, Flask, and Gitlab CI/CD achieving 80% automation coverage.",
             "Modernized managed security products using Java, Spring, React.js, Ansible AWX, Postgres, and Microsoft Azure reducing operational efforts by over 600 hours per year.",
